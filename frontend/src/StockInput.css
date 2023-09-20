@@ -1,0 +1,73 @@
+.stock-input-container{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.stock-input-container input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+.stock-input-container input:focus{
+    border-color: #007BFF;
+    outline: none;
+}
+
+.stock-input-container button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #0077BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stock-input-container button:hover{
+    background-color: #0056b3;
+}
+
+.react-autosuggest__suggestion--highlighted{
+    background-color: #eee;
+}
+
+.react-autosuggest__suggestions-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.react-autosuggest__suggestion{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.react-autosuggest__container{
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 768px){
+
+    .stock-input-container{
+        padding: 10px;
+    }
+
+    .stock-input-container input,
+    .stock-input-container button{
+        font-size: 14px;
+    }
+
+}
