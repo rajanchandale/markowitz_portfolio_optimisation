@@ -19,6 +19,7 @@ This tool optimises portfolio composition using techniques like CAPM and Sharpe 
 
 - **Advanced Financial Calculations:**
     - **CAPM for Expected Returns:**
+  
         - Evaluates potential returns on an investment relative to its systematic risk
     - **Sharpe Ratio Maximisation:**
         - Determine's the portfolio's return relative to its volatility. The portfolio composition which maximises the Sharpe Ratio is deemed to be the optimal portfolio
